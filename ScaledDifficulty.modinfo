@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d63a54b2-b7e4-4ab8-9acb-cf370c77d774" version="1">
+  <Properties>
+    <Name>Scaled Difficulty</Name>
+    <Description>Scales the AI difficulty according to eras.</Description>
+    <Teaser></Teaser>
+    <Authors>Thomas Leese</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <Files>
+    <File>BaseScaling.sql</File>
+    <File>EraScaling.sql</File>
+    <File>Requirements.sql</File>
+    <File>StartingUnits.sql</File>
+  </Files>
+
+  <Components>
+    <UpdateDatabase id="ScaledDifficultyComponent">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
+      <Items>
+        <File>Requirements.sql</File>
+        <File>StartingUnits.sql</File>
+        <File>BaseScaling.sql</File>
+        <File>EraScaling.sql</File>
+      </Items>
+    </UpdateDatabase>
+  </Components>
+</Mod>
