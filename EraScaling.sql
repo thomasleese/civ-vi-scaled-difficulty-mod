@@ -125,24 +125,24 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ("FAITH_SCALING_INFO", "YieldType", "YIELD_FAITH"),
 ("FAITH_SCALING_FUTURE", "YieldType", "YIELD_FAITH");
 
--- Scale production and gold by +5% per difficulty per era.
+-- Scale production and gold by +6% per difficulty per era.
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value, Extra) VALUES
-("PRODUCTION_SCALING_CLASSICAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_MEDIEVAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_RENAISSANCE", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_INDUSTRIAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_MODERN", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_ATOMIC", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_INFO", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("PRODUCTION_SCALING_FUTURE", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_CLASSICAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_MEDIEVAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_RENAISSANCE", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_INDUSTRIAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_MODERN", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_ATOMIC", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_INFO", "Amount", "LinearScaleFromDefaultHandicap", 0, 5),
-("GOLD_SCALING_FUTURE", "Amount", "LinearScaleFromDefaultHandicap", 0, 5);
+("PRODUCTION_SCALING_CLASSICAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_MEDIEVAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_RENAISSANCE", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_INDUSTRIAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_MODERN", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_ATOMIC", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_INFO", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("PRODUCTION_SCALING_FUTURE", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_CLASSICAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_MEDIEVAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_RENAISSANCE", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_INDUSTRIAL", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_MODERN", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_ATOMIC", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_INFO", "Amount", "LinearScaleFromDefaultHandicap", 0, 6),
+("GOLD_SCALING_FUTURE", "Amount", "LinearScaleFromDefaultHandicap", 0, 6);
 
 -- Scale science, culture and faith by +3% per difficulty per era.
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value, Extra) VALUES
